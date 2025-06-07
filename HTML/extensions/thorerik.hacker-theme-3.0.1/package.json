@@ -1,0 +1,62 @@
+{
+	"name": "hacker-theme",
+	"displayName": "hacker-theme",
+	"description": "The perfect theme for writing IP tracers in Visual Basic and reverse-proxying a UNIX-system firewall",
+	"author": {
+		"name": "Thor Erik Lie",
+		"email": "thor@thorerik.com"
+	},
+	"version": "3.0.1",
+	"scripts": {
+		"deploy": "vsce publish"
+	},
+	"engines": {
+		"vscode": "^1.47.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Hacker Theme Monochrome",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Hacker-Theme-Monochrome-color-theme.json"
+			},
+			{
+				"label": "Hacker Theme Colorized",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Hacker-Theme-Colorkeywords-color-theme.json"
+			},
+			{
+				"label": "Red Hacker Theme Colorized",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Red-Hacker-Theme-Colorkeywords-color-theme.json"
+			}
+		]
+	},
+	"galleryBanner": {
+		"theme": "dark",
+		"color": "#505050"
+	},
+	"icon": "media/icon.png",
+	"license": "MIT",
+	"publisher": "thorerik",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thorerik/vscode-hacker-theme"
+	},
+	"dependencies": {
+		"vsce": "^1.78.0"
+	},
+	"__metadata": {
+		"id": "43623e6d-814f-4500-8a7f-fa052d3ea48d",
+		"publisherId": "8613358c-52fb-4f30-83eb-3b94618c5d6c",
+		"publisherDisplayName": "Thor Erik",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1744475602007
+	}
+}
